@@ -1,0 +1,43 @@
+@import "compass/utilities/color/contrast";
+@import "yiq-color-contrast";
+@import "susy";
+
+$yiq-debug : true;
+
+//Susy settings
+$total-columns  : 12;             // a 12-column grid
+$column-width   : 4em;            // each column is 4em wide
+$gutter-width   : 1em;            // 1em gutters between columns
+$grid-padding   : 0;              // grid-padding equal to gutters
+$items-per-row  : 4;
+
+$color-list: #000000, #FA5400, #87E300, #00A4E4, #983168, #DC404A, #E7FF00, #BC9A69;
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.example__row {
+  @include container;
+  margin: $gutter-width 0;
+}
+
+.example__item {
+  @include box-sizing('border-box');
+  @include span-columns($total-columns/$items-per-row,$total-columns);
+  @include nth-omega();
+  padding: 1em;
+  text-align: center;
+}
+
+@for $i from 1 through length($color-list) {
+  .example--default__item--#{$i} {
+    @include contrasted(nth($color-list, $i));
+  }
+  .example--50__item--#{$i} {
+    @include contrasted($background-color: nth($color-list, $i), $threshold: 50%);
+  }
+  .example--yiq__item--#{$i} {
+    @include yiq-contrasted(nth($color-list, $i));
+  }
+}
