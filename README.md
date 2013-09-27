@@ -8,9 +8,9 @@ This code is bundled as a Compass extension simply for ease of installation. It 
 
 For information on color contrast and the YIQ color space:
 
-* [24 Ways: Calculating Color Contrast](http://24ways.org/2010/calculating-color-contrast/)
-* [W3C: Ensure that foreground and background color combinations provide sufficient contrast when viewed by someone having color deficits or when viewed on a black and white screen](http://www.w3.org/TR/AERT#color-contrast)
-* [Wikipedia: YIQ](http://en.wikipedia.org/wiki/YIQ)
+* [**24 Ways:** Calculating Color Contrast](http://24ways.org/2010/calculating-color-contrast/)
+* [**W3C:** Ensure that foreground and background color combinations provide sufficient contrast when viewed by someone having color deficits or when viewed on a black and white screen](http://www.w3.org/TR/AERT#color-contrast)
+* [**Wikipedia:** YIQ](http://en.wikipedia.org/wiki/YIQ)
 
 ## Compass Extension Installation
 
