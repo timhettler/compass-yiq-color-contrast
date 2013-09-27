@@ -82,7 +82,7 @@ Toggles diagnostic messages.
 ### Functions
 
   ```scss
-  @function yiq-contrast-color($color, $dark, $light, $threshold)
+  yiq-contrast-color($color, $dark, $light, $threshold)
   ```
 
 Returns the `$light` color when the `$color` is dark and the `$dark` color when the `$color` is light. The `$threshold` is a value between 0 and 255 and it determines when the lightness of `$color` changes from "dark" to "light".
