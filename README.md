@@ -53,6 +53,8 @@ By default, the extension doesn't add any files to your project. An example scss
   ```
 ### Configurable Variables
 
+All configuration variables are assigned with the `!default` flag, so they may be overriden in your project stylesheet.
+
   ```scss
   $yiq-contrasted-dark-default: #000;
   ```
@@ -72,15 +74,15 @@ The text color to be used when a background is determiend to be "dark"
 A a value between 0 and 255. It determines when the lightness of color changes from "dark" to "light".
 
   ```scss
-  $yiq-debug: false !default;
+  $yiq-debug: false;
   ```
 
-Toggle diagnostic messages.
+Toggles diagnostic messages.
 
 ### Functions
 
   ```scss
-  yiq-contrast-color($color, $dark, $light, $threshold)
+  @function yiq-contrast-color($color, $dark, $light, $threshold)
   ```
 
 Returns the `$light` color when the `$color` is dark and the `$dark` color when the `$color` is light. The `$threshold` is a value between 0 and 255 and it determines when the lightness of `$color` changes from "dark" to "light".
