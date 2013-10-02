@@ -1,9 +1,9 @@
-/* line 16, ../sass/compass-yiq-color-contrast.scss */
+/* line 18, ../sass/compass-yiq-color-contrast.scss */
 body {
-  font-family: Helvetica;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
-/* line 20, ../sass/compass-yiq-color-contrast.scss */
+/* line 22, ../sass/compass-yiq-color-contrast.scss */
 .example__row {
   *zoom: 1;
   max-width: 59em;
@@ -21,7 +21,7 @@ body {
   clear: both;
 }
 
-/* line 25, ../sass/compass-yiq-color-contrast.scss */
+/* line 27, ../sass/compass-yiq-color-contrast.scss */
 .example__item {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -39,145 +39,145 @@ body {
   margin-right: 0;
 }
 
-/* line 34, ../sass/compass-yiq-color-contrast.scss */
+/* line 36, ../sass/compass-yiq-color-contrast.scss */
 .example--default__item--1 {
   background-color: black;
   color: white;
 }
 
-/* line 37, ../sass/compass-yiq-color-contrast.scss */
+/* line 39, ../sass/compass-yiq-color-contrast.scss */
 .example--50__item--1 {
   background-color: black;
   color: white;
 }
 
-/* line 40, ../sass/compass-yiq-color-contrast.scss */
+/* line 42, ../sass/compass-yiq-color-contrast.scss */
 .example--yiq__item--1 {
   background-color: black;
   color: white;
 }
 
-/* line 34, ../sass/compass-yiq-color-contrast.scss */
+/* line 36, ../sass/compass-yiq-color-contrast.scss */
 .example--default__item--2 {
   background-color: #fa5400;
   color: black;
 }
 
-/* line 37, ../sass/compass-yiq-color-contrast.scss */
+/* line 39, ../sass/compass-yiq-color-contrast.scss */
 .example--50__item--2 {
   background-color: #fa5400;
   color: white;
 }
 
-/* line 40, ../sass/compass-yiq-color-contrast.scss */
+/* line 42, ../sass/compass-yiq-color-contrast.scss */
 .example--yiq__item--2 {
   background-color: #fa5400;
   color: white;
 }
 
-/* line 34, ../sass/compass-yiq-color-contrast.scss */
+/* line 36, ../sass/compass-yiq-color-contrast.scss */
 .example--default__item--3 {
   background-color: #87e300;
   color: black;
 }
 
-/* line 37, ../sass/compass-yiq-color-contrast.scss */
+/* line 39, ../sass/compass-yiq-color-contrast.scss */
 .example--50__item--3 {
   background-color: #87e300;
   color: white;
 }
 
-/* line 40, ../sass/compass-yiq-color-contrast.scss */
+/* line 42, ../sass/compass-yiq-color-contrast.scss */
 .example--yiq__item--3 {
   background-color: #87e300;
   color: black;
 }
 
-/* line 34, ../sass/compass-yiq-color-contrast.scss */
+/* line 36, ../sass/compass-yiq-color-contrast.scss */
 .example--default__item--4 {
   background-color: #00a4e4;
   color: black;
 }
 
-/* line 37, ../sass/compass-yiq-color-contrast.scss */
+/* line 39, ../sass/compass-yiq-color-contrast.scss */
 .example--50__item--4 {
   background-color: #00a4e4;
   color: white;
 }
 
-/* line 40, ../sass/compass-yiq-color-contrast.scss */
+/* line 42, ../sass/compass-yiq-color-contrast.scss */
 .example--yiq__item--4 {
   background-color: #00a4e4;
   color: white;
 }
 
-/* line 34, ../sass/compass-yiq-color-contrast.scss */
+/* line 36, ../sass/compass-yiq-color-contrast.scss */
 .example--default__item--5 {
   background-color: #983168;
   color: black;
 }
 
-/* line 37, ../sass/compass-yiq-color-contrast.scss */
+/* line 39, ../sass/compass-yiq-color-contrast.scss */
 .example--50__item--5 {
   background-color: #983168;
   color: white;
 }
 
-/* line 40, ../sass/compass-yiq-color-contrast.scss */
+/* line 42, ../sass/compass-yiq-color-contrast.scss */
 .example--yiq__item--5 {
   background-color: #983168;
   color: white;
 }
 
-/* line 34, ../sass/compass-yiq-color-contrast.scss */
+/* line 36, ../sass/compass-yiq-color-contrast.scss */
 .example--default__item--6 {
   background-color: #dc404a;
   color: black;
 }
 
-/* line 37, ../sass/compass-yiq-color-contrast.scss */
+/* line 39, ../sass/compass-yiq-color-contrast.scss */
 .example--50__item--6 {
   background-color: #dc404a;
   color: black;
 }
 
-/* line 40, ../sass/compass-yiq-color-contrast.scss */
+/* line 42, ../sass/compass-yiq-color-contrast.scss */
 .example--yiq__item--6 {
   background-color: #dc404a;
   color: white;
 }
 
-/* line 34, ../sass/compass-yiq-color-contrast.scss */
+/* line 36, ../sass/compass-yiq-color-contrast.scss */
 .example--default__item--7 {
   background-color: #e7ff00;
   color: black;
 }
 
-/* line 37, ../sass/compass-yiq-color-contrast.scss */
+/* line 39, ../sass/compass-yiq-color-contrast.scss */
 .example--50__item--7 {
   background-color: #e7ff00;
   color: black;
 }
 
-/* line 40, ../sass/compass-yiq-color-contrast.scss */
+/* line 42, ../sass/compass-yiq-color-contrast.scss */
 .example--yiq__item--7 {
   background-color: #e7ff00;
   color: black;
 }
 
-/* line 34, ../sass/compass-yiq-color-contrast.scss */
+/* line 36, ../sass/compass-yiq-color-contrast.scss */
 .example--default__item--8 {
   background-color: #bc9a69;
   color: black;
 }
 
-/* line 37, ../sass/compass-yiq-color-contrast.scss */
+/* line 39, ../sass/compass-yiq-color-contrast.scss */
 .example--50__item--8 {
   background-color: #bc9a69;
   color: black;
 }
 
-/* line 40, ../sass/compass-yiq-color-contrast.scss */
+/* line 42, ../sass/compass-yiq-color-contrast.scss */
 .example--yiq__item--8 {
   background-color: #bc9a69;
   color: black;

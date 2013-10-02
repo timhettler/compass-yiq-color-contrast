@@ -3,7 +3,12 @@ $yiq-contrasted-light-default: #fff !default;
 $yiq-contrasted-threshold: 128 !default;
 $yiq-debug: false !default;
 
-@function yiq-contrast-color($color, $dark: $yiq-contrasted-dark-default, $light: $yiq-contrasted-light-default, $threshold: $yiq-contrasted-threshold) {
+@function yiq-contrast-color(
+  $color,
+  $dark: $yiq-contrasted-dark-default,
+  $light: $yiq-contrasted-light-default,
+  $threshold: $yiq-contrasted-threshold
+) {
   $red: red($color);
   $green: green($color);
   $blue: blue($color);
@@ -15,7 +20,12 @@ $yiq-debug: false !default;
   @return if($yiq >= $threshold, $yiq-contrasted-dark-default, $yiq-contrasted-light-default);
 }
 
-@mixin yiq-contrasted($background-color, $dark: $yiq-contrasted-dark-default, $light: $yiq-contrasted-light-default, $threshold: $yiq-contrasted-threshold) {
+@mixin yiq-contrasted(
+  $background-color,
+  $dark: $yiq-contrasted-dark-default,
+  $light: $yiq-contrasted-light-default,
+  $threshold: $yiq-contrasted-threshold
+) {
   background-color: $background-color;
-  color: yiq-contrast-color($args...);
+  color: yiq-contrast-color($background-color, $dark, $light, $threshold);
 }
