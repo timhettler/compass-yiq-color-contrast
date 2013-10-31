@@ -2,8 +2,8 @@ require './lib/compass-yiq-color-contrast'
 
 Gem::Specification.new do |s|
   # Release Specific Information
-  s.version = "1.0.0"
-  s.date = "2013-09-27"
+  s.version = "1.10.0"
+  s.date = "2013-10-31"
 
   # Gem Details
   s.name = "compass-yiq-color-contrast"

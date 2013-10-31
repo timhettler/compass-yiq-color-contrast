@@ -82,6 +82,12 @@ Toggles diagnostic messages.
 ### Functions
 
   ```scss
+  yiq-is-light($color, [$threshold])
+  ```
+
+Returns `true` if the color is "light" or `false` if it is "dark".
+
+  ```scss
   yiq-contrast-color($color, [$dark], [$light], [$threshold])
   ```
 
