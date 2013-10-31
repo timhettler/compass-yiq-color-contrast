@@ -1,4 +1,4 @@
-require './lib/compass-flexbox'
+require './lib/compass-yiq-color-contrast'
 
 Gem::Specification.new do |s|
   # Release Specific Information

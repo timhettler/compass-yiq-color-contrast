@@ -17,7 +17,7 @@ $yiq-debug: false !default;
 
   @if $yiq-debug { @debug $yiq, $threshold; }
 
-  @return if($yiq >= $threshold, $yiq-contrasted-dark-default, $yiq-contrasted-light-default);
+  @return if($yiq >= $threshold, $dark, $light);
 }
 
 @mixin yiq-contrasted(
