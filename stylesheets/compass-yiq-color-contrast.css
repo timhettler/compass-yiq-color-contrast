@@ -3,42 +3,6 @@ body {
   font-family: "Helvetica Neue", sans-serif;
 }
 
-/* line 22, ../sass/compass-yiq-color-contrast.scss */
-.example__row {
-  *zoom: 1;
-  max-width: 59em;
-  _width: 59em;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 1em 0;
-}
-/* line 38, ../../../../../../../usr/local/Cellar/ruby/1.9.3-p385/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.example__row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* line 27, ../sass/compass-yiq-color-contrast.scss */
-.example__item {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 23.72881%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline;
-  padding: 1em;
-  text-align: center;
-}
-/* line 184, ../../../../../../../usr/local/Cellar/ruby/1.9.3-p385/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_grid.scss */
-.example__item:last-child {
-  float: right;
-  margin-right: 0;
-}
-
 /* line 36, ../sass/compass-yiq-color-contrast.scss */
 .example--default__item--1 {
   background-color: black;
@@ -60,7 +24,7 @@ body {
 /* line 36, ../sass/compass-yiq-color-contrast.scss */
 .example--default__item--2 {
   background-color: #fa5400;
-  color: black;
+  color: white;
 }
 
 /* line 39, ../sass/compass-yiq-color-contrast.scss */
@@ -84,7 +48,7 @@ body {
 /* line 39, ../sass/compass-yiq-color-contrast.scss */
 .example--50__item--3 {
   background-color: #87e300;
-  color: white;
+  color: black;
 }
 
 /* line 42, ../sass/compass-yiq-color-contrast.scss */
@@ -96,7 +60,7 @@ body {
 /* line 36, ../sass/compass-yiq-color-contrast.scss */
 .example--default__item--4 {
   background-color: #00a4e4;
-  color: black;
+  color: white;
 }
 
 /* line 39, ../sass/compass-yiq-color-contrast.scss */
@@ -114,7 +78,7 @@ body {
 /* line 36, ../sass/compass-yiq-color-contrast.scss */
 .example--default__item--5 {
   background-color: #983168;
-  color: black;
+  color: white;
 }
 
 /* line 39, ../sass/compass-yiq-color-contrast.scss */
@@ -132,13 +96,13 @@ body {
 /* line 36, ../sass/compass-yiq-color-contrast.scss */
 .example--default__item--6 {
   background-color: #dc404a;
-  color: black;
+  color: white;
 }
 
 /* line 39, ../sass/compass-yiq-color-contrast.scss */
 .example--50__item--6 {
   background-color: #dc404a;
-  color: black;
+  color: white;
 }
 
 /* line 42, ../sass/compass-yiq-color-contrast.scss */

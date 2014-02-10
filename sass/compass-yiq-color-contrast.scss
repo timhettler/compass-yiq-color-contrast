@@ -1,6 +1,6 @@
 @import "compass/utilities/color/contrast";
 @import "yiq-color-contrast";
-@import "susy";
+// @import "susy";
 
 $yiq-debug : true;
 
@@ -19,18 +19,18 @@ body {
   font-family: "Helvetica Neue", sans-serif;
 }
 
-.example__row {
-  @include container;
-  margin: $gutter-width 0;
-}
+// .example__row {
+//   @include container;
+//   margin: $gutter-width 0;
+// }
 
-.example__item {
-  @include box-sizing('border-box');
-  @include span-columns($total-columns/$items-per-row,$total-columns);
-  @include nth-omega();
-  padding: 1em;
-  text-align: center;
-}
+// .example__item {
+//   @include box-sizing('border-box');
+//   @include span-columns($total-columns/$items-per-row,$total-columns);
+//   @include nth-omega();
+//   padding: 1em;
+//   text-align: center;
+// }
 
 @for $i from 1 through length($color-list) {
   .example--default__item--#{$i} {

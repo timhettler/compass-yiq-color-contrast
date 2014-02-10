@@ -1,0 +1,5 @@
+{
+  "name": "YIQ Color Contrast",
+  "description": "A compass extension that provides a function to determine the lightness of a color in the YIQ color space. (Bourbon compatible)",
+  "tags": ["color", "compass", "bourbon"]
+}
