@@ -38,4 +38,9 @@ Gem::Specification.new do |s|
   # Gems Dependencies
   s.add_dependency("sass")
   s.add_dependency("compass")
+
+  s.post_install_message = <<-MESSAGE
+  !    The 'compass-yiq-color-contrast' gem has been deprecated and has been replaced by 'sass-yiq'.
+  !    And: https://github.com/timhettler/sass-yiq
+  MESSAGE
 end
